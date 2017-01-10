@@ -1,28 +1,15 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-body{
-  width: 100%;
-  font-family: 'Lato', sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  color: #fff;
-}
-
-#container{
-  width: 90%;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #FF715B;
-}
-
-h1, h2, h3, h4, h5, h6{
-  padding: 20px 0px 10px 0px;
-}
-
-p{
-  padding: 10px 0px;
-}
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <ul>
+            <li><a href="#">Home</a><li>
+            <li><a href="#">About</a><li>
+            <li><a href="#">News</a><li>
+            <li class="right"><a href="#">Contact Us</a><li>
+        </ul>
+    </body>
+</html>
