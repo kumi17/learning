@@ -73,7 +73,7 @@ header {
     float: right;
     display: block;
     padding: 10px 20px;
-    margin: 60px 175px; 0 0;
+    margin: 55px 175px; 0 0;
     font-family: arial;
     background: linear-gradient(lightgreen,darkgreen);
     color: white;
@@ -84,5 +84,75 @@ header {
 section {
     height: 800px;
     margin: 0;
-    background-color: lightblue;
+    background-color: white;
+    font-family: arial; 
+    box-shadow: 0 30px 135px lightblue inset;
+}
+.abstract {
+    margin: 0px 175px 0px 175px;
+    height: 250px;
+}
+.abstract h2 {
+    margin: 0;
+    color: forestgreen;
+    padding: 100px 0 30px 0;
+    border-bottom: 2px solid grey;
+}
+.abstract p {
+    margin: 0px;
+    padding: 19px 0 0 0;
+}
+.section1 {
+    margin:0 175px;
+    padding: 65px 0 0 0;
+    height: 600px;
+}
+.box {
+    height: 200px;
+    background: linear-gradient( white, lightgrey);
+    width: 300px;
+    margin-bottom: 25px;
+    float: left;
+    border: 1px solid lightgrey;
+    overflow: hidden;
+    }
+.box h3 {
+     border-bottom: 1px solid grey;
+     padding: 15px;
+     margin: 0;
+}
+
+.box h3 a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: forestgreen;
+   
+}
+.box p {
+    margin: 0;
+    padding: 20px;
+}
+.box1 {
+    height: 200px;
+    background: linear-gradient( white, lightgrey);
+    width: 300px;
+    margin: 0px 35px;
+    float: left;
+    border: 1px solid lightgrey;
+    overflow: hidden;
+}
+.box1 h3 {
+     border-bottom: 1px solid grey;
+     padding: 15px;
+     margin: 0;
+}
+
+.box1 h3 a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: forestgreen;
+}
+.box1 p {
+    margin: 0;
+    padding: 20px;
 }
