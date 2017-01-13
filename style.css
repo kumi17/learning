@@ -100,7 +100,9 @@ section {
 }
 .abstract p {
     margin: 0px;
-    padding: 19px 0 0 0;
+    padding: 50px 0 0 0;
+    font-size: 15px;
+    line-height: 20px;
 }
 .section1 {
     margin:0 175px;
@@ -131,6 +133,9 @@ section {
 .box p {
     margin: 0;
     padding: 20px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
 }
 .box p::first-line {
     font-weight: bold;
@@ -158,6 +163,9 @@ section {
 .box1 p {
     margin: 0;
     padding: 20px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
 }
 .box1 p::first-line {
     font-weight: bold;
