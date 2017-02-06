@@ -45,10 +45,11 @@ header{
 }
 .info li{
     float: left;
+    padding-right: 20px;
 }
 .info li img{
     float: left;
-    padding: 21px 10px 21px 0;
+    padding: 0px 10px 0px 0;
 }
 .info li p{
     float: left;
@@ -67,8 +68,8 @@ header{
 }
 .icons li{
     float: left;
+    padding-right: 20px;
 }
 .icons li img{
-    float: left;
-    padding: 21px 10px 21px 0;
+    padding: 0px 10px 0px 0;
 }
