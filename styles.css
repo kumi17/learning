@@ -57,3 +57,7 @@ header{
     font-size: 10px;
     font-weight: bold;
 }
+.icons{
+    width: 50%;
+    float: left;
+}
