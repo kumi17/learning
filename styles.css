@@ -27,9 +27,33 @@ header{
 }
 .top-header{
     width: 100%;
-    background-color: #f2f2f2;
+    background-color: #726a68;
+    float: left;
 }
 .info-icons{
     width: 1170px;
     margin: 0px auto;
+}
+.info{
+    width: 70%;
+    float: left;
+}
+.info ul{
+    float: left;
+    list-style-type: none;
+    width: 30%;
+}
+.inf0 li{
+    float: left;
+    width: 100%;
+}
+.info li img{
+    float: left;
+    padding: 21px 10px 21px 0;
+}
+.info li p{
+    float: left;
+    padding: 20px 0px 21px 0;
+    font-size: 10px;
+    font-weight: bold;
 }
