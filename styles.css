@@ -14,15 +14,17 @@ body{
 }
 .container .top-line{
     width: 100%;
+    background-color: #f26d5c;
+    height: 4px;
 }
 header{
-    width: 1170px;
-    margin: 0px auto;
+    width: 100%;
 }
 .top-header{
     width: 100%;
+    background-color: #f2f2f2;
 }
-.top-line{
-    background-color: #f26d5c;
-    height: 4px;
+.info-icons{
+    width: 1170px;
+    margin: 0px auto;
 }
