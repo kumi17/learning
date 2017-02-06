@@ -59,7 +59,8 @@ header{
 }
 .icons{
     width: 30%;
-    float: left;
+    float: right;
+    text-align: left;
 }
 .icons ul{
     float: left;
