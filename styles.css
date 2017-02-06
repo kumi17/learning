@@ -43,9 +43,8 @@ header{
     list-style-type: none;
     width: 100%;
 }
-.inf0 li{
+.info li{
     float: left;
-    width: 100%;
 }
 .info li img{
     float: left;
@@ -68,7 +67,6 @@ header{
 }
 .icons li{
     float: left;
-    width: 100%;
 }
 .icons li img{
     float: left;
