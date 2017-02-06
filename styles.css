@@ -35,7 +35,7 @@ header{
     margin: 0px auto;
 }
 .info{
-    width: 50%;
+    width: 70%;
     float: left;
 }
 .info ul{
@@ -58,7 +58,7 @@ header{
     font-weight: bold;
 }
 .icons{
-    width: 50%;
+    width: 30%;
     float: left;
 }
 .icons ul{
