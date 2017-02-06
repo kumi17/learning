@@ -37,6 +37,7 @@ header{
 .info{
     width: 70%;
     float: left;
+    padding: 20px 0px;
 }
 .info ul{
     float: left;
@@ -53,14 +54,15 @@ header{
 }
 .info li p{
     float: left;
-    padding: 20px 0px 21px 0;
-    font-size: 10px;
+    padding: 5px 0px 0px 0;
+    font-size: 13px;
     font-weight: bold;
 }
 .icons{
     width: 30%;
     float: right;
     text-align: left;
+    padding: 20px 0px;
 }
 .icons ul{
     float: left;
