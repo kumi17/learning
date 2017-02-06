@@ -35,13 +35,13 @@ header{
     margin: 0px auto;
 }
 .info{
-    width: 70%;
+    width: 50%;
     float: left;
 }
 .info ul{
     float: left;
     list-style-type: none;
-    width: 30%;
+    width: 100%;
 }
 .inf0 li{
     float: left;
@@ -60,4 +60,17 @@ header{
 .icons{
     width: 50%;
     float: left;
+}
+.icons ul{
+    float: left;
+    list-style-type: none;
+    width: 100%;
+}
+.icons li{
+    float: left;
+    width: 100%;
+}
+.icons li img{
+    float: left;
+    padding: 21px 10px 21px 0;
 }
