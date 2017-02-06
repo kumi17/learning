@@ -18,9 +18,11 @@ body{
 .container.top-line{
     background-color: #f26d5c;
     height: 4px;
+    float: left;
 }
 header{
     width: 100%;
+    float: left;
 }
 .top-header{
     width: 100%;
