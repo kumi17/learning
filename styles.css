@@ -15,7 +15,8 @@ body{
 .container{
     width: 100%;
 }
-.container.top-line{
+.container .top-line{
+    width: 100%;
     background-color: #f26d5c;
     height: 4px;
     float: left;
