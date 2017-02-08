@@ -100,20 +100,28 @@ header{
 }
 .menu ul{
     float: left;
-    width: 100%;
     list-style-type: none;
-     padding: 51px 0 71px;
+     padding: 66px 0;
 }
 .menu li{
-    float: left;
     padding-right: 50px;
-}
-.menu li span{
     float: left;
-    background-color: #db6767;
-    width: 9px;
-    height: 9px;
+    display: inline-block;
+    position: relative;
+}
+.menu li:last-child{
+    padding-right: 0px;
+}
+
+.menu li:hover:before{
+    content: "";
+    position: absolute;
+    top: -25px;
+    background: #db6767;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
+    left:calc(50% - 25px);
 }
 .menu li a{
     float: left;
@@ -122,4 +130,94 @@ header{
     font-size: 18px;
     font-weight: bold;
     color: #000;
+}
+.menu li a:hover{
+    color: #db6767;
+}
+.banner{
+    width: 100%;
+    float: left;
+    background: url("images/design5template%20copy.jpg");
+    height: 500px;       
+}
+.heading{
+    width: 1170px;
+    margin: 200px auto 0px;
+    padding-left: 15px;
+}
+.heading h1, h2{
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+.heading h2{
+    font-size: 30px;
+}
+.bottom-banner{
+    display: block;
+    width: 100%;
+    float: left;
+    background-color: #f26d5c;
+    height: 50px;
+}
+.selection-button{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 16px 0 16px 555px;
+}
+.selection-button ul{
+    float: left;
+    width: 100%;
+}
+.selection-button li{
+    float: left;
+}
+.outer-circle{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    background-color: #f97e79;
+}
+.inner-circle{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}
+.inner-circle:hover{
+    background-color: #000;
+}
+/****section****/
+
+section{
+    width: 100%;
+    float: left;
+}
+.services{
+    width: 100%;
+    float: left;
+    height: 450px;
+    background: url("images/services.jpg")
+}
+.all-services{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 43px 35px 27px 35px;
+}
+.service1{
+    width: 275px;
+    float: left;
+    padding: 0px 50px;
+}
+.service1:last-child{
+   padding-right: 0px;
+}
+.service1:first-child{
+   padding-left: 0px;
 }
